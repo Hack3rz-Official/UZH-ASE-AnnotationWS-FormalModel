@@ -1,6 +1,6 @@
 package lexer
 
-import LTok
+import lexer.LTok
 import org.antlr.v4.runtime.*
 import org.antlr.v4.runtime.Lexer
 

@@ -1,7 +1,7 @@
 package highlighter.javahighlighter
 
-import HCode
-import HTok
+import lexer.HCode
+import lexer.HTok
 import Java8ParserBaseListener
 import highlighter.GrammaticalHighlighter
 import loopingOnChildren

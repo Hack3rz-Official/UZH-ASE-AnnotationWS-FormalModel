@@ -1,10 +1,10 @@
 package highlighter.kotlinhighlighter
 
-import HTok
-import LTok
+import lexer.HTok
+import lexer.LTok
 import highlighter.LexicalHighlighter
 import KotlinLexer
-import HCode
+import lexer.HCode
 
 class KotlinLexicalHighlighter: LexicalHighlighter(lexer.KotlinLexer()) {
 

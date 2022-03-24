@@ -1,7 +1,7 @@
 package highlighter
 
-import HTok
-import LTok
+import lexer.HTok
+import lexer.LTok
 import org.antlr.v4.runtime.*
 import org.antlr.v4.runtime.tree.ParseTreeWalker
 import java.util.*

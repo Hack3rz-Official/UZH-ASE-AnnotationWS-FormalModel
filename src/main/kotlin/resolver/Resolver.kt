@@ -1,7 +1,7 @@
 package resolver
 
-import HTok
-import LTok
+import lexer.HTok
+import lexer.LTok
 import highlighter.Highlighter
 import lexer.Lexer
 import utils.toHighlightedHTML

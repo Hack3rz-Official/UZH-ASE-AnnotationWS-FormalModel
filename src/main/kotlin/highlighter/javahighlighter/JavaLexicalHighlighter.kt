@@ -1,10 +1,10 @@
 package highlighter.javahighlighter
 
-import HTok
-import LTok
+import lexer.HTok
+import lexer.LTok
 import highlighter.LexicalHighlighter
 import lexer.JavaLexer
-import HCode
+import lexer.HCode
 
 class JavaLexicalHighlighter: LexicalHighlighter(JavaLexer()) {
 

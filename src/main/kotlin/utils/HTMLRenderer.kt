@@ -1,7 +1,7 @@
 package utils
 
-import HCode
-import HTok
+import lexer.HCode
+import lexer.HTok
 
 fun String.inHTMLFile(): String =
     """

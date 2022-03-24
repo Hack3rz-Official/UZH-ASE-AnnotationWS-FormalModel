@@ -2,6 +2,8 @@ import org.antlr.v4.runtime.ParserRuleContext
 import org.antlr.v4.runtime.tree.ParseTree
 import org.antlr.v4.runtime.tree.TerminalNode
 import java.util.*
+import lexer.HTok;
+import lexer.HCode;
 
 fun ParseTree?.isTerminal(): TerminalNode? =
     if (this != null && this is TerminalNode) this else null

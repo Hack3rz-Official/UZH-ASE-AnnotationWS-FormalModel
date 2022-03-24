@@ -1,6 +1,6 @@
 package highlighter
 
-import HTok
+import lexer.HTok
 import org.antlr.v4.runtime.tree.ParseTreeListener
 
 interface GrammaticalHighlighter: ParseTreeListener {

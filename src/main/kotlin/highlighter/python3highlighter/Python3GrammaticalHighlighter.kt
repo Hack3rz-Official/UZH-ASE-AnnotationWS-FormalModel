@@ -1,7 +1,7 @@
 package highlighter.python3highlighter
 
-import HCode
-import HTok
+import lexer.HCode
+import lexer.HTok
 import Python3ParserBaseListener
 import highlighter.GrammaticalHighlighter
 import innerHToks

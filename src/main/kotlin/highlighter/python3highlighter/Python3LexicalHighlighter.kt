@@ -1,10 +1,10 @@
 package highlighter.python3highlighter
 
-import HTok
-import LTok
+import lexer.HTok
+import lexer.LTok
 import highlighter.LexicalHighlighter
 import Python3Lexer
-import HCode
+import lexer.HCode
 
 class Python3LexicalHighlighter: LexicalHighlighter(lexer.Python3Lexer()) {
 

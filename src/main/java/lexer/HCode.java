@@ -1,3 +1,5 @@
+package lexer;
+
 public enum HCode {
     ANY(0),
     // Lexically identifiable.

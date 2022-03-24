@@ -1,7 +1,7 @@
 package highlighter.kotlinhighlighter
 
-import HCode
-import HTok
+import lexer.HCode
+import lexer.HTok
 import KotlinParserBaseListener
 import highlighter.GrammaticalHighlighter
 import innerHToks

@@ -1,8 +1,8 @@
 package highlighter
 
 import lexer.Lexer
-import HTok
-import LTok
+import lexer.HTok
+import lexer.LTok
 
 abstract class LexicalHighlighter(
     private val lexer: Lexer
